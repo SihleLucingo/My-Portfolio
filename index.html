@@ -1,9 +1,8 @@
  <!DOCTYPE html>
 <html>
     <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sihle Lucingo's Profile</title>
-     <!--style-->
         <style>
          video{
           position: absolute;
@@ -61,12 +60,14 @@
   background-color: #ddd;
   color: black;
 }
-
+@media only screen and (max-width:500px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
         </style>
-     <!--end style-->
     </head>
     <body>
-     <!--Navbar-->
         <div class="container">
           <div class="topnav">
             <a href="index.html">Home</a>
@@ -77,16 +78,15 @@
           </div>
         </div>
       </div>
-      <!--End Navbar-->
       
       
         <h1><i><b> Welcome</b></i></h1> 
          <h1><br>to my profile<br>were every thing is code</i></h1>
          
-          <!--Background Vidoe-->
+
          <video autoplay loop muted plays - inline>
-          <source src="world.mp4" type="video/mp4">
+          <source src="World.mp4" type="video/mp4">
          </video>
-         <!--End Background Video-->
+
     </body>
 </html>
